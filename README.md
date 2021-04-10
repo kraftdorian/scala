@@ -5,7 +5,7 @@ Dev environment for awesome https://www.scala-lang.org/
 Installed packages:
 * SDKMAN 5.11,
 * AdoptOpenJDK 11,
-* sbt 1.4.9
+* Scala 2.13.5
 
 It is based on debian:buster-slim.
 
