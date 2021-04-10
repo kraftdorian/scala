@@ -13,7 +13,6 @@ RUN apt update &&\
     apt install -y adoptopenjdk-11-hotspot &&\
     curl -s "https://get.sdkman.io" | bash &&\
     source "/root/.sdkman/bin/sdkman-init.sh" &&\
-    sdk install sbt &&\
-    touch build.sbt
+    sdk install scala 2.13.5
 
-CMD ["sbt"]
+CMD ["scala"]
